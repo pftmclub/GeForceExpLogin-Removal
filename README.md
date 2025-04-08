@@ -1,5 +1,12 @@
 # GeForceExpLogin-Removal
 Remove Mandatory Login of Geforce Experience - [support: v3.26.0.154 and higher]
+
+## How to use Geforce Auto Debloat
+
+```
+irm https://github.com/hampta/GFE-Auto-Debloat/raw/main/Install-GFE.ps1 | iex
+```
+
 # How to Remove Mandatory Login  
 
 make a backup of every files you edit !
