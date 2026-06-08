@@ -32,7 +32,7 @@ Write-Host "NVIDIA driver version: $nvidia_smi_output"
 Write-Host "-----------------------------------------"
 
 if ($nvidia_smi_output -ge "425.31") {
-    $GEFORCE_EXPERIENCE_VERSION = "3.26.0.154"
+    $GEFORCE_EXPERIENCE_VERSION = "3.20.4.14"
     $APP_JS_DOWNLOAD_URL = "https://github.com/pftmclub/GeForceExpLogin-Removal/raw/refs/heads/main/app.js"
 }
 else {
